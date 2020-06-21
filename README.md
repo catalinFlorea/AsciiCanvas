@@ -36,6 +36,11 @@ To compile, build and execute unit tests from command line you can use the Maven
 mvn clean package
 ```
 
+To run the program from command line:
+```shell
+mvn exec:java -Dexec.mainClass=play.canvas.Main
+```
+
 ## Improvements
 * Refactor and clean even more the code, extract in a separate class logic from the Main class
 * Increase code coverage - for all branches/instructions - Commands from console can also be tested, RegEx expression as well
