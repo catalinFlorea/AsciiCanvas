@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import play.canvas.Canvas;
 
-class TestCanvasBuildValidity {
+class TestCanvasBuildValidity { 
 
 	@Test
 	void testInvalid0WidthAndHeight() {

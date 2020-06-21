@@ -5,7 +5,7 @@ public class CanvasHelper {
 	static final char LINE_CHAR = '-';
 	static final char COL_CHAR = '|';
 	static final char SPACE = ' ';
-	static final char X_CHAR = 'X';
+	public static final char X_CHAR = 'X';
 	
 	private static final String MENU_LINE_SEPARATOR = "============================================";
 
